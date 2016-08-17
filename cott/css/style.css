@@ -1,0 +1,317 @@
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-bla-webfont.eot');
+    src: url('../fonts/lato-bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bla-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bla-webfont.woff') format('woff'),
+         url('../fonts/lato-bla-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bla-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoblack_italic';
+    src: url('../fonts/lato-blaita-webfont.eot');
+    src: url('../fonts/lato-blaita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-blaita-webfont.woff2') format('woff2'),
+         url('../fonts/lato-blaita-webfont.woff') format('woff'),
+         url('../fonts/lato-blaita-webfont.ttf') format('truetype'),
+         url('../fonts/lato-blaita-webfont.svg#latoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bol-webfont.eot');
+    src: url('../fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bol-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bol-webfont.woff') format('woff'),
+         url('../fonts/lato-bol-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bol-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold_italic';
+    src: url('../fonts/lato-bolita-webfont.eot');
+    src: url('../fonts/lato-bolita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bolita-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bolita-webfont.woff') format('woff'),
+         url('../fonts/lato-bolita-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bolita-webfont.svg#latobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latohairline';
+    src: url('../fonts/lato-hai-webfont.eot');
+    src: url('../fonts/lato-hai-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-hai-webfont.woff2') format('woff2'),
+         url('../fonts/lato-hai-webfont.woff') format('woff'),
+         url('../fonts/lato-hai-webfont.ttf') format('truetype'),
+         url('../fonts/lato-hai-webfont.svg#latohairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latohairline_italic';
+    src: url('../fonts/lato-haiita-webfont.eot');
+    src: url('../fonts/lato-haiita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-haiita-webfont.woff2') format('woff2'),
+         url('../fonts/lato-haiita-webfont.woff') format('woff'),
+         url('../fonts/lato-haiita-webfont.ttf') format('truetype'),
+         url('../fonts/lato-haiita-webfont.svg#latohairline_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-lig-webfont.eot');
+    src: url('../fonts/lato-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-lig-webfont.woff2') format('woff2'),
+         url('../fonts/lato-lig-webfont.woff') format('woff'),
+         url('../fonts/lato-lig-webfont.ttf') format('truetype'),
+         url('../fonts/lato-lig-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('../fonts/lato-ligita-webfont.eot');
+    src: url('../fonts/lato-ligita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-ligita-webfont.woff2') format('woff2'),
+         url('../fonts/lato-ligita-webfont.woff') format('woff'),
+         url('../fonts/lato-ligita-webfont.ttf') format('truetype'),
+         url('../fonts/lato-ligita-webfont.svg#latolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-reg-webfont.eot');
+    src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-reg-webfont.woff2') format('woff2'),
+         url('../fonts/lato-reg-webfont.woff') format('woff'),
+         url('../fonts/lato-reg-webfont.ttf') format('truetype'),
+         url('../fonts/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoitalic';
+    src: url('../fonts/lato-regita-webfont.eot');
+    src: url('../fonts/lato-regita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regita-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regita-webfont.woff') format('woff'),
+         url('../fonts/lato-regita-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regita-webfont.svg#latoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Basic Styles*/
+*{margin: 0; padding:0;}
+body{padding:0; margin: 0; font-family:'latoregular'; font-weight: normal;}
+
+
+html{margin:0px;padding:0px;}
+a img{outline:0;}
+img{border:0px; outline: none;}
+
+ul, ol{list-style-type:none}
+
+.clear{clear:both}
+
+a{text-decoration:none; outline: none;}
+
+.Container{width:100%;position: relative;}
+
+.Container-1{width:100%; border-top:1px dashed #d9d9d9;position: relative;}
+
+
+input, select,textarea{font-family: 'latoregular';}
+
+.mobicon { display:none;}
+
+/*.wrapper{width:60%;margin:0px auto; padding-bottom:3%;}*/
+
+::-webkit-input-placeholder {color: #000;}
+:-moz-placeholder {color:  #000;}
+::-moz-placeholder {color:  #000;}
+:-ms-input-placeholder {color:  #000;}
+::-ms-input-placeholder {color:  #000;}
+
+/*-webkit-appearance: none;*/
+select {-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: #fff!important;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {transition: background-color 5000s ease-in-out 0s;}
+
+
+/*header*/
+header{width: 100%;background:#292a2c; border-bottom: 1px solid #dcdcdc; }
+.contener-m{width: 80%; margin:0 auto;}
+.contact-top{padding: 9px 0 9px 0; width: 80%; margin: 0 auto; display: table;}
+.contact-top .contact-left{display: table-cell;}
+.contact-top .contact-left ul{padding: 0;margin: 0;}
+.contact-top .contact-left li{list-style-type: none; vertical-align:middle;  padding:0 25px 0 25px; margin:0; display:inline-block;font-family:'Myriad Pro',sans-serif; color:#ffffff; font-size: 14px;}
+.contact-top .contact-left li a{color: #ffffff;}
+.contact-top .contact-left li img{padding-right:20px;vertical-align:sub; }\
+.contact-top .contact-right{display: table-cell;}
+.contact-top .contact-right li{list-style-type: none; vertical-align:middle;  padding:0 0 0 10px; margin:0; display:inline-block;}
+/*header*/
+
+/*navigation*/
+nav{width: 100%; background: #ffffff;-moz-box-shadow: 0px 2px 2px #000000;-webkit-box-shadow: 0px 2px 2px #000000;box-shadow: 0px 2px 2px #c4c5c7;}
+.logo{float: left; width:20%; padding: 12px 0 12px 0}
+.logo img{width:100%}
+.logo a{display:block; }
+.menu-m{width:70%; float:left; margin-left: 10%; }
+.menu-m ul{padding:0; margin: 0; float:left; }
+.menu-m li{padding:0; margin:0; display:inline-block;position: relative;}
+.menu-m li span {text-align: center;position: absolute;top: 62%;margin: 0 auto;left: 0;right: 0;}
+.menu-m li a{text-decoration: none; font-family:'latoregular';font-size: 15px; text-transform: uppercase; color:#8c8c8c; display: inline-block; padding:50px 10px 50px 10px; }
+.menu-m li a:hover{background:#b1b1b1; color: #ffffff;}
+.menu-m li a:hover span{display: none;}
+/*navigation*/
+
+.mainbanner{width: 100%;}
+.mainbanner img{width: 100%}
+
+.mid-content{background:#000000; height:270px; position:absolute;}
+.bg-gray{background: url(../images/bg-hi.jpg);background-repeat: repeat-x;}
+.mid-content-inside{width:72%; margin: 0 auto; background: #ffffff; top: 0; padding:0 60px 0 60px; position: relative;}
+.mid-content-inside .border-top{height: 8%;background: #ffffff;position: absolute;top: -30px;width: 100%;margin: 0 auto;left: 0;right: 0;}
+.mid-content-inside h1{font-size: 25px; color: #282828;font-family: 'latoregular'; text-align: center; padding:20px 0 5px 0; font-weight:800;}
+.mid-content-inside h1 span{font-family: 'latolight';color: #353535;}
+.mid-content-inside p{text-align: center; font-family: 'latolight'; font-size:18px; color: #8f8f8f; padding-bottom: 35px;}
+
+.abcott-services{width: 100%;/* padding-bottom: 36px;*/}
+.abcott-services ul{margin: 0; padding: 0;}
+.abcott-services li{list-style-type: none; padding: 0; margin: 0 10px; float:left;width:23.45%;  }
+.abcott-services li:first-child{margin-left: 0;}
+.abcott-services li:last-child{margin-right: 0;}
+.abcott-services li img{width: 100%; display: block;}
+.abcott-services li h1{border-bottom: 1px solid #cccccc;font-family: 'latoregular'; font-size: 16px; text-align: left;padding:16px 0 10px 0; color: #2f2f2f; font-weight: normal;}
+.abcott-services li h1 span{font-family:'latobold'; }
+.abcott-services li p{font-family: 'latolight'; font-size: 15px; color: #8f8f8f;text-align: left;padding:16px 0 0 0; line-height: 20px;}
+.abcott-services li .readmore{font-family: 'latoregular'; font-size: 15px;font-weight: normal; padding-top: 20px;}
+.readmore a::before{content:url(../images/plus-icon.png); margin-right: 8px; vertical-align: middle;}
+.readmore a{text-decoration: none;color:#2a2a2c;}
+.abcott-services li:last-child h1{background: #272727; color: #ffffff; padding: 15px 0 15px 12px; border-bottom: none;}
+.abcott-services li:last-child p{background: #6d6d6d; color: #ffffff; padding: 15px 0 15px 12px}
+
+.client-say{font-family:'latoregular';color:#2f2f2f; text-transform: uppercase; font-size: 16px; padding-bottom: 16px;}
+.client-say::before{content: url(../images/client-icon.png); margin-right: 20px;}
+.client-say span{color:#909090;font-family: 'latolight';}
+
+.testimonials{width:72%; margin: 0 auto; background: #ffffff; top: 0; padding:0 60px 0 60px;} 
+.testimonials ul{padding: 0px; margin: 0px;}
+.testimonials li{padding:0px; margin: 0px; width: 45%; float:left;padding:32px;}
+.testimonials li:last-child{padding-right:0px;}
+.testimonials li .testi-image{
+border:solid 3px #ffffff;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright:3px;
+-moz-border-radius-bottomleft:3px;
+-moz-border-radius-bottomright:3px;
+-webkit-border-top-left-radius:3px;
+-webkit-border-top-right-radius:3px;
+-webkit-border-bottom-left-radius:3px;
+-webkit-border-bottom-right-radius:3px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+-moz-box-shadow: 0px 0px 2px #d8d8d8;
+-webkit-box-shadow: 0px 0px 2px #d8d8d8;
+box-shadow: 0px 0px 2px #d8d8d8;
+margin-right:25px;
+float: left;
+width: 20%
+}
+
+.testimonials li .testi-image img{width: 100%;border:0; display: block;}
+
+.testimonials li .testi-text-wrap{
+padding: 5px;
+float:left; 
+border:solid 3px #ffffff;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright:3px;
+-moz-border-radius-bottomleft:3px;
+-moz-border-radius-bottomright:3px;
+-webkit-border-top-left-radius:3px;
+-webkit-border-top-right-radius:3px;
+-webkit-border-bottom-left-radius:3px;
+-webkit-border-bottom-right-radius:3px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+-moz-box-shadow: 0px 0px 2px #d8d8d8;
+-webkit-box-shadow: 0px 0px 2px #d8d8d8;
+box-shadow: 0px 0px 2px #d8d8d8;
+width: 68%;
+position: relative;
+}
+
+.testimonials li .testi-text-wrap::before{content: url(../images/test-corner.jpg);position: absolute; top: 30%; left: -11px;}
+
+.testimonials li .testi-tittle{border-bottom: 1px dashed #ebebeb;width: 100%; display: table; padding-bottom: 5px;}
+.testimonials li .testi-tittle h1{text-align:left; color: #bb2f2e; font-size:12px;font-family:'latoregular'; font-weight:bold; text-transform: uppercase; display:table-cell;}
+.testimonials li .testi-tittle h2{text-align:right; color: #a4a4a4;font-size:12px;font-family:'latoitalic'; font-weight:normal;display:table-cell; font-weight: bold;}
+
+.testimonials li p{font-family:'latoitalic'; font-size:14px; font-weight: normal; color:#919191; padding-top: 5px; padding-bottom: 5px; line-height:23px; } 
+
+.footer-wrap{width:100%; background: url(../images/footer-bg.jpg)repeat; padding: 38px 0 13px 0;}
+footer{width: 80%;margin: 0 auto;}
+footer ul{float:left; padding: 0px;  margin-right: 40px; width: 20%;}
+footer ul h1{font-size: 18px; color: #ffffff; font-weight: normal; text-transform: uppercase;font-family:'latoregular'; padding-bottom: 13px; border-bottom: 1px dashed #32353a;}
+footer li{padding:10px 0 5px 0; display: block; margin: 0; color: #6e6f73; font-family: 'latolight';font-weight: normal;}
+footer li a{text-decoration: none; color: #6e6f73;}
+footer li a:hover{color: #ffffff;}
+.footer-m{margin-right:20px;}
+footer ul li.social p{display:table;padding: 7px 0px 10px 0;line-height: 17px; font-size: 14px;}
+footer ul li.social p::before{content: url(../images/twitter-icon-b.png); display: table-cell;padding-right: 18px; vertical-align: top;}
+footer ul li.social{border-bottom: 1px dashed #32353a;}
+footer ul li.social:last-child {border-bottom: none;}
+footer ul li.social p span{display:block; text-align: right;font-size: 13px;font-family: 'latoitalic';color: #4b4c50;padding-top: 5px;}
+footer ul li.social p mark{color: #ffffff; background: none;}
+
+footer ul.contact{width:48%;margin-right: 0px; position: relative; /*background:#85878a;*/ }
+footer ul.contact .mobile{position: absolute;top: -65px;left:85px;width: 45%;}
+footer ul.contact .mobile img{width: 100%}
+footer ul.contact h1{text-align: right; border:0px; font-family:'latoregular'; text-transform:inherit;font-weight:normal; font-size: 50px; line-height: 40px;}
+footer ul.contact h1 span{font-family: 'latolight';display: block; font-weight: normal;}
+footer ul.contact h2{text-align: right; color:#ffffff; font-family:'latoregular'; font-size: 30px;}
+footer ul.contact h3{text-align: right; color:#ffffff; font-family:'latoregular'; font-size: 30px;padding-right: 55px;padding-top: 10px;}
+footer ul.contact h3 span{font-family:'latolight';font-weight: normal;}
+
+footer ul.contact h4{text-align: right; color:#ffffff; font-family:'latoregular'; font-size: 20px;padding-top:0px;font-weight: normal;}
+footer ul.contact h4 span{font-family:'latolight';font-weight: normal;}
+
+.footer-2{width: 100%;  background: url(../images/footer-bg-2.jpg)repeat; padding: 15px 0 15px 0; border-top:1px solid #1c2023;}
+.footer-wrap-inside{width: 80%;margin: 0 auto; display:table;}
+
+.footer-wrap-inside .left{font-size: 13px; color: #7b7c7e; font-family:'latolight'; font-weight: normal;vertical-align: middle; display: table-cell;} 
+.footer-wrap-inside .right{vertical-align: middle; display:table-cell; text-align: right;}
+.footer-wrap-inside .right ul{padding: 0; margin:0; }
+.footer-wrap-inside .right li{padding:0 10px 10px 0; margin: 0px; list-style-type: none; display:inline-block;}
+.footer-wrap-inside .right li a{text-decoration: none; border:0; }
+.footer-wrap-inside .right li a:hover{opacity: 0.5;}
+.footer-wrap-inside .right li img{display: block;}
+
+
+@media all and (max-width: 1280px){
+.abcott-services li{width: 23%;}
+.testimonials li{padding: 28px;}
+.testimonials li .testi-image{width:20%;}
+.testimonials li .testi-text-wrap{width:67%}
+
+
+}
+
